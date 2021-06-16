@@ -1,0 +1,89 @@
+body, html {
+  /*height: 100%;*/
+}
+body {
+	box-sizing: border-box;
+	background: url("../images/background.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	background-attachment: fixed;
+}
+header {
+	/*height: 140px;*/
+	background-color: #2d2a2b;
+	margin-bottom: 50px;
+}
+.my-nav {
+	height: 100%;
+}
+.logo-text,.logo-text:hover,.nav-text:hover{
+	text-decoration: none;
+}
+.logo-text {
+	font-size: 40px;
+	font-family: "myriad pro";
+	font-weight: bold;
+}
+.logo-img {
+	width: 90%;
+	height: 50%;
+}
+.nav-text {
+	display: block;
+	margin-top: 10px;
+}
+.nav-text>h1 {
+	font-weight: bold;
+	font-size: 29px;
+	color: #f0f6f8;
+}
+.nav-text>h6 {
+	padding-top: 10px;
+}
+.bitcoin-text {
+	color: #f0f6f8;
+	font-size: 20px;
+}
+.c-white {
+	color: #f0f6f8;
+}
+.c-blue {
+	color: #2babe2;
+}
+
+@media only screen and (max-width: 768px) {
+  	body {
+	    background: url("../images/mobile_back.jpg");
+	    background-size: 100% 100%;
+	    background-repeat: no-repeat;
+	    background-attachment: fixed;
+	    overflow-y: scroll;
+	    overflow-x: hidden;
+  	}
+	.content-wrapper {
+	  	overflow-x: hidden;
+	}
+  	.my-nav {
+		padding: 30px !important;
+	}
+	.dis_none {
+		display: none;
+	}
+	.quick_nav {
+		display: block;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		width: 30px;
+		height: 30px;
+		color: white;
+		background-color: rgba(0,0,0,0.1);
+		text-align: center;
+	}
+	.logo-text {
+		font-size: 30px;
+	}
+}

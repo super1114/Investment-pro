@@ -1,0 +1,64 @@
+.blue_btn {
+	height: 40px;
+	width: 100% !important;
+	color: #f0f6f8;
+	padding-top: 5px;
+	background-color: #2babe2;
+	border: 0px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+.blue_btn:hover {
+	cursor: pointer;
+	background-color: #0b8bb2;
+}
+.black_btn {
+	height: 70px;
+	padding-top: 12px;
+	background-color: #221f20;
+	border: 0px;
+	border-radius: 10px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+}
+.black_btn:hover {
+	cursor: pointer;
+	background-color: #423f40;
+}
+.black_btn_href , .black_btn_href:hover{
+	text-decoration: none;
+}
+.blue-bar {
+	margin-top: 10px;
+	height: 10px;
+	background-color: #2babe2;
+	border-radius: 5px;
+	width: 53%;
+}
+.withdraw-box {
+	padding-left: 90px;
+	padding-top: 20px;
+	background-color: rgba(0,0,0,0.4);
+}
+.hi_section {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 25px;
+}
+.wallet_section>h4 {
+	font-size: 25px;
+}
+.withdraw_text {
+	font-size: 18px;
+	color:#f0f6f8;
+}
+@media only screen and (max-width: 768px) {
+  .withdraw-box {
+  	padding: 20px;
+  }
+  .trans {
+  	margin-bottom: 20px;
+  }
+}

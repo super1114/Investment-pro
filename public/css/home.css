@@ -1,0 +1,68 @@
+.left-side-text{
+	padding-left: 60px;
+	padding-top: 10px;
+}
+.left-side-text>h1 {
+	font-weight: 700 !important;
+	font-size: 36px;
+}
+.left-side-bar {
+	margin-top: 30px;
+	margin-left: 60px;
+	height: 10px;
+	background-color: #2babe2;
+	border-radius: 5px;
+	width:70%;
+}
+.left-side-btn {
+	margin-left: 50px;
+	margin-top: 30px;
+	padding-left: 15px;
+}
+.black_btn:focus{
+	outline: none;
+}
+.get_started_btn {
+	height: 50px;
+	width: 80%;
+}
+.black_btn {
+	background-color: #221f20;
+	outline: none;
+	border: 0px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.youtube-box {
+	margin-top: 20px;
+	height: auto;
+	background-color: #000000;
+	width: 100%;
+}
+.right-side-text1{
+	padding-left: 2px;
+}
+.right-side-text1>h2 {
+	font-size: 25px;
+	font-weight: bold;
+}
+.right-side-text1>h5 {
+	text-align: justify;
+	/* text-justify:inter-word; */
+	font-size: 18px;
+}
+.right-side-text1>h4 {
+	font-size: 20px !important;
+	font-weight: bold !important;
+}
+@media only screen and (max-width: 768px) {
+  .youtube-box {
+    height: auto;
+  }
+  .right-side-text1 {
+  	margin-top: 15px !important;
+  	padding: 15px !important;
+  }
+}

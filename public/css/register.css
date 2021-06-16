@@ -1,0 +1,25 @@
+.black_btn:focus{
+	outline: none;
+}
+.black_btn {
+	background-color: #221f20;
+	outline: none;
+	border: 0px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.register-box {
+	padding: 100px;
+	padding-top:50px;
+	padding-bottom:80px;
+	margin-bottom: 20px;
+	padding-top: 30px!important;
+	background-color: rgba(0,0,0,0.4);
+}
+input.trans{
+	border: none;
+	background-color: rgba(0,0,0,0.6) !important;
+	color:#2babe2 !important;
+}

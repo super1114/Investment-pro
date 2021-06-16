@@ -1,0 +1,60 @@
+.black_btn {
+	height: 70px;
+	padding-top: 12px;
+	background-color: #221f20;
+	border: 0px;
+	border-radius: 10px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+}
+.black_btn:hover {
+	cursor: pointer;
+	background-color: #423f40;
+}
+.black_btn_href , .black_btn_href:hover{
+	text-decoration: none;
+}
+.blue-bar {
+	margin-top: 10px;
+	height: 10px;
+	background-color: #2babe2;
+	border-radius: 5px;
+	width: 53%;
+}
+.members-box {
+	padding-left: 90px;
+	padding-top: 20px;
+	background-color: rgba(0,0,0,0.4);
+}
+.hi_section {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 25px;
+}
+.wallet_section>h4 {
+	font-size: 23px;
+}
+@media only screen and (max-width: 768px) {
+  	.members-box {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 20px;
+		background-color: rgba(0,0,0,0.4);
+	}
+	.black_btn {
+		margin-bottom: 20px;
+	}
+	.col-sm-1 {width: 8.33%;}
+	.col-sm-2 {width: 16.66%;}
+	.col-sm-3 {width: 25%;}
+	.col-sm-4 {width: 33.33%;}
+	.col-sm-5 {width: 41.66%;}
+	.col-sm-6 {width: 50%;}
+	.col-sm-7 {width: 58.33%;}
+	.col-sm-8 {width: 66.66%;}
+	.col-sm-9 {width: 75%;}
+	.col-sm-10 {width: 83.33%;}
+	.col-sm-11 {width: 91.66%;}
+	.col-sm-12 {width: 100%;}
+}
